@@ -1,0 +1,13 @@
+<view class="container">
+    <view class="edit-container">
+        <input type="text" placeholder="请输入待办事项" bindinput="editChange" value="{{todo.info}}"/>
+        <button bindtap="addTodo">确定</button>
+    </view>
+    <text>待办：</text>
+    <view class="show-container">
+        <view class="item-todo" wx:for="{{todos}}" >
+            <input type="text" value="{{item.info}}" disabled="true"/>
+            <icon type="clear" size="24" data-each-todo="{{item.time}}" bindtap="removeTodo"/>
+        </view>
+    </view> 
+</view>

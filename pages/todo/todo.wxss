@@ -1,0 +1,27 @@
+.edit-container{
+    margin-bottom: 20px;
+    width: 80%;
+}
+.show-container{
+    height: 200px;
+    width: 80%;
+    overflow-y: auto;
+    
+}
+
+.item-todo{
+    position: relative;
+}
+
+.item-todo icon{
+    position: absolute;
+    top: 9px;
+    right: 15px;
+}
+.container input{
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    width: 99%;
+    height: 40px;
+}
