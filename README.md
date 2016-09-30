@@ -15,5 +15,5 @@
    创建一个page对象，该对象拥有完整的生命周期，可以在不同的时期，进行不同的操作
 
 ### 结构
-  [link](http://www.baidu.com)
+  ![image](./images/xcx-jg.png)
 
