@@ -17,3 +17,8 @@
 ### 结构
   ![image](./images/xcx-jg.png)
 
+
+### App()：
+  用来注册一个小程序， 接收一个object函数，其指定小程序的声明周期函数等。
+  参数说明：
+    ![image](./images/xcx-app.png)
